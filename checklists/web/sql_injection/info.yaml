@@ -1,0 +1,7 @@
+id: sql-injection
+name: SQL Injection
+categories:
+  - input_validation
+
+
+
