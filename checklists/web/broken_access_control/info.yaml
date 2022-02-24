@@ -2,3 +2,5 @@ id: broken-access-control
 name: Broken Access Control
 categories:
   - broken_access
+on_assets:
+  - webapplication:

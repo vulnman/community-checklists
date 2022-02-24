@@ -2,6 +2,10 @@ id: sql-injection
 name: SQL Injection
 categories:
   - input_validation
-
-
-
+on_assets:
+  webapplication:
+    always: true
+  webrequest:
+    contains: "/wordpress"
+    is_regex: false
+on_pentest: true
