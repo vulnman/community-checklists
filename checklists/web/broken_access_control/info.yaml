@@ -3,4 +3,6 @@ name: Broken Access Control
 categories:
   - broken_access
 on_assets:
-  - webapplication:
+  webapplication:
+    always: true
+on_pentest: true
