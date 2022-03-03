@@ -5,7 +5,4 @@ categories:
 on_assets:
   webapplication:
     always: true
-  webrequest:
-    contains: "/wordpress"
-    is_regex: false
 on_pentest: true
