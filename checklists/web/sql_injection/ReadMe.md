@@ -1,4 +1,4 @@
-#### SQL-Injection
+The most simple to find kind of sql injections, are Error-based SQL-injections.
 
 ##### Methodology
 - Try to trigger SQL syntax errors

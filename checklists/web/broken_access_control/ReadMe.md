@@ -1,4 +1,3 @@
-#### Broken Access Control
 Insufficient authorization checks results in *Broken Access Control* vulnerabilities.
 
 ##### Methodology

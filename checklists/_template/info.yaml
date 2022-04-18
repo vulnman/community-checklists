@@ -1,5 +1,5 @@
-id: broken-access-control
-name: Broken Access Control
+id: sql-injection
+name: SQL-Injection
 conditions:
   - service.name: http
   - service.name: https

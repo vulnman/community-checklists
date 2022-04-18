@@ -1,8 +1,8 @@
 id: sql-injection
-name: SQL Injection
-categories:
-  - input_validation
-on_assets:
-  webapplication:
-    always: true
-on_pentest: true
+name: SQL-Injection
+conditions:
+  - service.name: http
+  - service.name: https
+  - service.port: 80
+  - service.port: 443
+  - webapplication.always: true
